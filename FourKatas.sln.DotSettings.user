@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0ff9cd05_002De34e_002D4be6_002D8b45_002Dbbecc48a2d73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PalindromesTests #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0ff9cd05_002De34e_002D4be6_002D8b45_002Dbbecc48a2d73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
@@ -32,6 +32,11 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aee0037c_002D1c88_002D4c9f_002Dbd96_002D027e824c2dc3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.PalindromesTests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b2f6acec_002D1fac_002D4a93_002Daa59_002D6259280419b7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="when_I_pass_a_I_will_get_true #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5b57748_002Dabe9_002D472a_002D9d2c_002D018e24616ff1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

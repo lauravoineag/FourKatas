@@ -2,13 +2,15 @@
 
 public class Palindromes
 {
-    public bool Execute( string value)
+    public bool IsPalindrome(string input)
     {
-        if (value == "ab")
+        var reversedChar = input.Reverse().ToArray(); //string is IEnumerable of char
+        var reversed = new String(reversedChar); //converting Ienumerable of char into string.
+        if (input ==reversed)
         {
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
 }
 

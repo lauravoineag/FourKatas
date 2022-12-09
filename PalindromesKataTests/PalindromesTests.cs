@@ -16,7 +16,7 @@ public class PalindromesTests
         //arrange
         var palindromes = new Palindromes();
         //act 
-        var actual = palindromes.Execute("a");
+        var actual = palindromes.IsPalindrome("a");
         //assert 
         Assert.That(actual,Is.EqualTo(true));
     }
@@ -27,7 +27,7 @@ public class PalindromesTests
         //arrange
         var palindromes = new Palindromes();
         //act 
-        var actual = palindromes.Execute("aa");
+        var actual = palindromes.IsPalindrome("aa");
         //assert 
         Assert.That(actual,Is.EqualTo(true));
     }
@@ -38,7 +38,7 @@ public class PalindromesTests
         //arrange
         var palindromes = new Palindromes();
         //act 
-        var actual = palindromes.Execute("ab");
+        var actual = palindromes.IsPalindrome("ab");
         //assert 
         Assert.That(actual,Is.EqualTo(false));
     }
