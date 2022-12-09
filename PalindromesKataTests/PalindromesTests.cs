@@ -20,4 +20,15 @@ public class PalindromesTests
         //assert 
         Assert.That(actual,Is.EqualTo(true));
     }
+    
+    [Test]
+    public void when_I_pass_aa_I_will_get_true()
+    {
+        //arrange
+        var palindromes = new Palindromes();
+        //act 
+        var actual = palindromes.Execute("aa");
+        //assert 
+        Assert.That(actual,Is.EqualTo(true));
+    }
 }
