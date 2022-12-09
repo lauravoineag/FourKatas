@@ -1,0 +1,76 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0ff9cd05_002De34e_002D4be6_002D8b45_002Dbbecc48a2d73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PalindromesTests #9" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=18f0f1c5_002D794d_002D4db8_002D94cc_002Df99fc3a55cef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #7" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=86bc9e37_002Df0c2_002D46e8_002D8fec_002Daa43570ae191/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.Tests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a13d023b_002D98bf_002D45a4_002Da8e8_002Dbc4138e8a520/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.Tests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a281caf7_002D98be_002D4827_002Db206_002Dcb072d0e75d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.Tests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a8e19aac_002Da259_002D4e10_002Da0c7_002D54aeee959aff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aee0037c_002D1c88_002D4c9f_002Dbd96_002D027e824c2dc3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.PalindromesTests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5b57748_002Dabe9_002D472a_002D9d2c_002D018e24616ff1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b6b7cfcf_002Dc492_002D485d_002D897e_002Dc540b8e1a359/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c6750faa_002D5c5c_002D4e8c_002D9480_002D1c7fa6bdac5d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="when_I_pass_a_I_will_get_true #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.Tests.when_I_pass_a_I_will_get_true&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e754656e_002Dd0d3_002D495b_002D8e90_002D6dba700f8c28/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec5aeee5_002Ddfa0_002D4b95_002D932a_002D271e3693cc1f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f800fa9d_002D1c31_002D485b_002D9deb_002D5e4555508c96/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #10" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ff12e6b8_002Dced6_002D49f5_002Dbc3d_002D5696dfdce14a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests #8" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ff5975e9_002D3614_002D4811_002Db97c_002D8ee15f2a6b3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PalindromesTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B61C36D2-2976-41B6-B312-DD9712D5E245::net6.0::PalindromesTests.PalindromesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
