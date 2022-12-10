@@ -31,4 +31,15 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("II"));
     }
+    [Test]
+    public void when_I_convert_number_3_I_will_get_numeral_III()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(3); 
+        //assert
+        Assert.That(actual,Is.EqualTo("III"));
+    }
+    
 }

@@ -4,6 +4,7 @@
     &lt;TestId&gt;NUnit3x::1190310E-6A73-4B18-B0A1-C13D86D72F5D::net6.0::PalindromesKataTests.PalindromesTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::59B3D022-996F-4262-98DA-C7032687D72D::net6.0::RomanNumeralsTests.NumeralsTests.when_I_convert_number_1_I_will_get_numeral_I&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::59B3D022-996F-4262-98DA-C7032687D72D::net6.0::RomanNumeralsTests.NumeralsTests.when_I_convert_number_2_I_will_get_numeral_II&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::59B3D022-996F-4262-98DA-C7032687D72D::net6.0::RomanNumeralsTests.NumeralsTests.when_I_convert_number_3_I_will_get_numeral_III&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eefde45e_002D3814_002D41e7_002D9362_002D115ad2dbeae6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;PalindromesKataTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
