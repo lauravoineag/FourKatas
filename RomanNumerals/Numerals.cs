@@ -2,12 +2,38 @@
 
 public class Numerals
 {
+    private IEnumerable<Numeral> _numerals;//only expose as IEnumerable so only the constructor can add to list
+
     public string Convert(int number)
     {
-        if (number == 4)
+        foreach (Numeral numeral in _numerals)
         {
-            return "IV";
+            if (numeral.Value == number)
+            {
+                return numeral.Symbol;
+            }
         }
-        return new string('I', number);
+        throw new ArgumentOutOfRangeException(nameof(number));
+    }
+
+    public Numerals()
+    {
+        Numeral one = new Numeral("I", 1);
+        Numeral two = new Numeral("II", 2);
+        Numeral three = new Numeral("III", 3);
+        Numeral four = new Numeral("IV", 4);
+        Numeral five = new Numeral("V", 5);
+        _numerals = new List<Numeral> {five, four, three, two, one };
+    }
+}
+
+public class Numeral // data class
+{
+    public string Symbol { get; set; }
+    public int Value { get; set; }
+    public Numeral(string symbol, int value)
+    {
+        Symbol = symbol;
+        Value = value;
     }
 }
