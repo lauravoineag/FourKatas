@@ -42,4 +42,14 @@ public class NumeralsTests
         Assert.That(actual,Is.EqualTo("III"));
     }
     
+    [Test]
+    public void when_I_convert_number_4_I_will_get_numeral_IV()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(4); 
+        //assert
+        Assert.That(actual,Is.EqualTo("IV"));
+    }
 }
