@@ -20,4 +20,15 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("I"));
     }
+    
+    [Test]
+    public void when_I_convert_number_2_I_will_get_numeral_II()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(2); 
+        //assert
+        Assert.That(actual,Is.EqualTo("II"));
+    }
 }
