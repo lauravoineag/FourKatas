@@ -6,7 +6,7 @@ public class Palindromes
     {
         var reversedChar = input.Reverse().ToArray(); //string is IEnumerable of char
         var reversed = new String(reversedChar); //converting Ienumerable of char into string.
-        if (input ==reversed)
+        if  (string.Equals(input,reversed,StringComparison.CurrentCultureIgnoreCase))
         {
             return true;
         }
