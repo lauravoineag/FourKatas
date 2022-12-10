@@ -52,4 +52,15 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("IV"));
     }
+    
+    [Test]
+    public void when_I_convert_number_5_I_will_get_numeral_V()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(5); 
+        //assert
+        Assert.That(actual,Is.EqualTo("V"));
+    }
 }
