@@ -42,4 +42,15 @@ public class PalindromesTests
         //assert 
         Assert.That(actual,Is.EqualTo(false));
     }
+    
+    [Test]
+    public void when_I_pass_a_mixed_palindrome_I_will_get_true()
+    {
+        //arrange
+        var palindromes = new Palindromes();
+        //act 
+        var actual = palindromes.IsPalindrome("aA");
+        //assert 
+        Assert.That(actual,Is.EqualTo(true));
+    }
 }
