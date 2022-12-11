@@ -4,6 +4,14 @@ public class Numerals
 {
     private IEnumerable<Numeral> _numerals;//only expose as IEnumerable so only the constructor can add to list
 
+    public Numerals()
+    {
+        Numeral one = new Numeral("I", 1);
+        Numeral four = new Numeral("IV", 4);
+        Numeral five = new Numeral("V", 5);
+        _numerals = new List<Numeral> {five, four, one };
+    }
+    
     public string Convert(int number)
     {
         foreach (Numeral numeral in _numerals)
@@ -16,14 +24,17 @@ public class Numerals
         throw new ArgumentOutOfRangeException(nameof(number));
     }
 
-    public Numerals()
+    // tuple method returns numeral symbol and remainder
+    private (string, int) Check (int number, Numeral numeral)
     {
-        Numeral one = new Numeral("I", 1);
-        Numeral two = new Numeral("II", 2);
-        Numeral three = new Numeral("III", 3);
-        Numeral four = new Numeral("IV", 4);
-        Numeral five = new Numeral("V", 5);
-        _numerals = new List<Numeral> {five, four, three, two, one };
+        //how many of Numeral.value is in number
+        // if 29/numeral.value
+        var count= number / numeral.Value; 
+        //29/10= 2 count 
+        var symbol = String.Concat(Enumerable.Repeat(numeral.Symbol, count));;//repeat string and creates a list, each string is x then concat //XX
+        //what's left  
+        var remainder = number % numeral.Value; // 9
+        return (symbol, remainder);
     }
 }
 
