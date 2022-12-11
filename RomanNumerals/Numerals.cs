@@ -28,10 +28,10 @@ public class Numerals
     private (string, int) Check (int number, Numeral numeral)
     {
         //how many of Numeral.value is in number
-        // if 29/numeral.value
+        // if number = 29;  29/numeral.value
         var count= number / numeral.Value; 
         //29/10= 2 count 
-        var symbol = String.Concat(Enumerable.Repeat(numeral.Symbol, count));;//repeat string and creates a list, each string is x then concat //XX
+        var symbol = String.Concat(Enumerable.Repeat(numeral.Symbol, count));;//repeat string creates lists of X strings, each list is x then concat into one list //XX
         //what's left  
         var remainder = number % numeral.Value; // 9
         return (symbol, remainder);
