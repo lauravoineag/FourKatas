@@ -85,4 +85,25 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("XXIX"));
     }
+    
+    [Test]
+    public void when_I_convert_number_49_I_will_get_numeral_XLIX()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(49); 
+        //assert
+        Assert.That(actual,Is.EqualTo("XLIX"));
+    }
+    [Test]
+    public void when_I_convert_number_95_I_will_get_numeral_XCV()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(95); 
+        //assert
+        Assert.That(actual,Is.EqualTo("XCV"));
+    }
 }

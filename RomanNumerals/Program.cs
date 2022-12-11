@@ -1,6 +1,6 @@
 ﻿using RomanNumerals;
 
-Console.WriteLine("Enter a number to receive a roman numeral [only works up to 39]"); 
+Console.WriteLine("Enter a number to receive a roman numeral"); 
 var input=Console.ReadLine();
 bool isInteger = Int32.TryParse(input,out int number);
 if (isInteger == false)

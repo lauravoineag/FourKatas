@@ -11,7 +11,12 @@ public class Numerals
         Numeral five = new Numeral("V", 5);
         Numeral nine = new Numeral("IX", 9);
         Numeral ten = new Numeral("X", 10);
-        _numerals = new List<Numeral> {ten,nine,five, four, one };
+        Numeral forty = new Numeral("XL", 40);
+        Numeral fifty = new Numeral("L", 50);
+        Numeral ninety = new Numeral("XC", 90);
+        Numeral oneHundred = new Numeral("C", 100);
+
+        _numerals = new List<Numeral> {oneHundred,ninety,fifty,forty,ten,nine,five, four, one };
     }
     
     public string Convert(int number)
