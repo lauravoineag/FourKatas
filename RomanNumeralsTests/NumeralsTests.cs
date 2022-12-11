@@ -63,4 +63,26 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("V"));
     }
+    
+    [Test]
+    public void when_I_convert_number_9_I_will_get_numeral_IX()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(9); 
+        //assert
+        Assert.That(actual,Is.EqualTo("IX"));
+    }
+    
+    [Test]
+    public void when_I_convert_number_29_I_will_get_numeral_XXIX()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(29); 
+        //assert
+        Assert.That(actual,Is.EqualTo("XXIX"));
+    }
 }

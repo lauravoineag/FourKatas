@@ -9,19 +9,22 @@ public class Numerals
         Numeral one = new Numeral("I", 1);
         Numeral four = new Numeral("IV", 4);
         Numeral five = new Numeral("V", 5);
-        _numerals = new List<Numeral> {five, four, one };
+        Numeral nine = new Numeral("IX", 9);
+        Numeral ten = new Numeral("X", 10);
+        _numerals = new List<Numeral> {ten,nine,five, four, one };
     }
     
     public string Convert(int number)
     {
+        string resultNumeral = ""; //xx
         foreach (Numeral numeral in _numerals)
         {
-            if (numeral.Value == number)
-            {
-                return numeral.Symbol;
-            }
+            var(symbol,remainder) = Check(number, numeral); //xx 9 
+            resultNumeral = resultNumeral + symbol;
+            number = remainder;
         }
-        throw new ArgumentOutOfRangeException(nameof(number));
+
+        return resultNumeral;
     }
 
     // tuple method returns numeral symbol and remainder
