@@ -128,4 +128,14 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("MDCCXXV"));
     }
+    [Test]
+    public void when_I_convert_number_1999_I_will_get_numeral_MCMXCIX()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(1999); 
+        //assert
+        Assert.That(actual,Is.EqualTo("MCMXCIX"));
+    }
 }
