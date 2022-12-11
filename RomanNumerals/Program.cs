@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using RomanNumerals;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Enter a number to receive a roman numeral [only works up to 39]"); 
+var input=Console.ReadLine();
+bool isInteger = Int32.TryParse(input,out int number);
+if (isInteger == false)
+{
+    Console.WriteLine("You need to type a whole number");
+    return; 
+}
+var numeral=new Numerals();
+var symbol= numeral.Convert(number);
+Console.WriteLine(symbol);
