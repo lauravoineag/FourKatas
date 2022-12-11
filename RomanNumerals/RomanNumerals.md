@@ -35,6 +35,7 @@ Rem	59	59	59	9	9	0
 9	0
 
 Special cases : 40,90 - XL one number subtracted for another (50-10 & 100-10)
+Works until 1999.
 
 TDD solution
 Go down the list and start with the bigger number first and check how many of this symbol do I need to add to the length of string symbol.
