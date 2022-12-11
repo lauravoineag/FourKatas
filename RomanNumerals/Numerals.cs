@@ -15,8 +15,14 @@ public class Numerals
         Numeral fifty = new Numeral("L", 50);
         Numeral ninety = new Numeral("XC", 90);
         Numeral oneHundred = new Numeral("C", 100);
+        Numeral fourHundred = new Numeral("CD", 400);
+        Numeral nineHundred = new Numeral("CM", 900);
+        Numeral oneThousand = new Numeral("M", 1000);
+        Numeral oneThousandFiveHundred = new Numeral("MD", 1500);
+        Numeral oneThousandNineHundred = new Numeral("MCM", 1900);
+        
 
-        _numerals = new List<Numeral> {oneHundred,ninety,fifty,forty,ten,nine,five, four, one };
+        _numerals = new List<Numeral> {oneThousandNineHundred,oneThousandFiveHundred,oneThousand,nineHundred,fourHundred,oneHundred,ninety,fifty,forty,ten,nine,five, four, one };
     }
     
     public string Convert(int number)

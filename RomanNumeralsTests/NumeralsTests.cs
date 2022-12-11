@@ -106,4 +106,26 @@ public class NumeralsTests
         //assert
         Assert.That(actual,Is.EqualTo("XCV"));
     }
+    
+    [Test]
+    public void when_I_convert_number_425_I_will_get_numeral_CDXXV()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(425); 
+        //assert
+        Assert.That(actual,Is.EqualTo("CDXXV"));
+    }
+    
+    [Test]
+    public void when_I_convert_number_1725_I_will_get_numeral_MDCCXXV()
+    {
+        //arange
+        var numerals = new Numerals();
+        //act
+        var actual = numerals.Convert(1725); 
+        //assert
+        Assert.That(actual,Is.EqualTo("MDCCXXV"));
+    }
 }
