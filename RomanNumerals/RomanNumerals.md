@@ -41,3 +41,4 @@ TDD solution
 Go down the list and start with the bigger number first and check how many of this symbol do I need to add to the length of string symbol.
 Check the remainder that still needs to be calculated against the list.
 Check for special cases.
+Add to string symbol.
